@@ -33,7 +33,7 @@ The ```.fit()``` method is specialized to handle various combinations of the abo
 
  ```optimization params``` is a dictionary with the following configuration parameters: 
  
--```optimizer```: function callback, e.g. ```get_opt_tree_policy```
+-```optimizer```: function callback, e.g. ```get_opt_tree_policy```.
 -```pol_opt```: name of policy class 
 - ```unc_set_type```: indicator of uncertainty set type (interval or budgeted) 
 - ```opt_params```: method-specific parameters (e.g. step size for gradients; tree depth for optimal tree) 
@@ -43,4 +43,3 @@ The ```.fit()``` method is specialized to handle various combinations of the abo
 Performance Evaluation 
 - For multiple treatments: ```oracle_risk``` is a function that takes in the ``` n x k ``` matrix of policy assignment probabilities (robust, and baseline), integer-coded treatments. ```oracle_risk``` sums over treatment partitions. 
   
-## Algorithms for optimizing Policies 
