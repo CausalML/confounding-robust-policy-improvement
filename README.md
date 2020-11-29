@@ -32,6 +32,7 @@ The ```.fit()``` method is specialized to handle various combinations of the abo
 - ```eval_conf``` a dictionary of evaluation parameters. 
 
  ```optimization params``` is a dictionary with the following configuration parameters: 
+ 
 -```optimizer```: function callback, e.g. ```get_opt_tree_policy```
 -```pol_opt```: name of policy class 
 - ```unc_set_type```: indicator of uncertainty set type (interval or budgeted) 
