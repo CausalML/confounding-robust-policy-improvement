@@ -43,6 +43,6 @@ The ```.fit()``` method is specialized to handle various combinations of the abo
 Performance Evaluation 
 - For multiple treatments: ```oracle_risk``` is a function that takes in the ``` n x k ``` matrix of policy assignment probabilities (robust, and baseline), integer-coded treatments. ```oracle_risk``` sums over treatment partitions. 
   
-** Replication code **
+**Replication code**
 Run methods_test.py to replicate simulation from paper. 
 
